@@ -11,3 +11,6 @@ SECRET_KEY = 'duck-duck-duck-duck'
 OPENID_PROVIDERS = [
     {'name': 'Yahoo', 'url': 'https://me.yahoo.com'},
     {'name': 'AOL', 'url': 'http://openid.aol.com/<username>'}]
+
+# pagination
+POSTS_PER_PAGE = 3
